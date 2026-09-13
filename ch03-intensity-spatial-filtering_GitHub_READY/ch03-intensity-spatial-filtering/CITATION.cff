@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this educational toolbox in teaching or coursework, please cite the repository."
+title: "Digital Image Processing Teaching Toolbox: Chapter 3 — Intensity Transformations and Spatial Filtering"
+type: software
+authors:
+  - family-names: "Sadoghi Yazdi"
+    given-names: "Hadi"
+year: 2026
+repository-code: "https://github.com/hadisadoghiyazdi1971/digital-image-processing-teaching-toolbox"
+license: MIT

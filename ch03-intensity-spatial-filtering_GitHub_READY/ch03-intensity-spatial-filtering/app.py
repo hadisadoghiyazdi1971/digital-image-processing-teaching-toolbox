@@ -40,7 +40,7 @@ class Toolbox(tk.Tk):
         self.params=ttk.Frame(left); self.params.pack(fill='x',pady=4)
         ttk.Button(left,text='اجرا',command=self._run).pack(fill='x',pady=8)
         ttk.Button(left,text='بازگردانی ورودی',command=self._reset).pack(fill='x')
-        ttk.Label(left,text='نکته: بیشتر الگوریتم‌های فصل ۳ روی شدت خاکستری اجرا می‌شوند.\nبرای توضیح هر گزینه، OPTIONS_GUIDE_FA.md را ببینید.',wraplength=240,justify='right').pack(fill='x',pady=16)
+        ttk.Label(left,text='نکته: بیشتر الگوریتم‌های فصل ۳ روی شدت خاکستری اجرا می‌شوند.\nبرای توضیح هر گزینه، docs/OPTIONS_GUIDE_FA.md را ببینید.',wraplength=240,justify='right').pack(fill='x',pady=16)
 
         views=ttk.Frame(right); views.pack(fill='both',expand=True)
         self.in_label=ttk.Label(views,anchor='center'); self.in_label.grid(row=0,column=0,sticky='nsew',padx=4,pady=4)

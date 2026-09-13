@@ -1,0 +1,31 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+.venv*/
+venv/
+env/
+
+# Local/offline installers and downloaded wheels
+wheels/
+wheels_final/
+*.whl
+*.tar.gz
+
+# Generated output images; keep the committed README demo under docs/assets
+outputs/*
+!outputs/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
