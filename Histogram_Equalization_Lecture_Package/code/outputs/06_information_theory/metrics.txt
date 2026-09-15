@@ -1,0 +1,7 @@
+entropy_input_bits = 5.546848
+entropy_equalized_bits = 5.534088
+kl_input_to_uniform_bits = 2.453152
+kl_equalized_to_uniform_bits = 2.465912
+mi_input_with_itself_bits = 3.558301
+mi_input_with_shifted_bits = 0.913433
+mi_input_with_shuffled_bits = 0.001082
